@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+seaborn
+unidecode
+fuzzywuzzy
+scipy
+statsmodels
