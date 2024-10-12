@@ -19,7 +19,7 @@ Os dados utilizados foram coletados das seguintes fontes:
 - **Cobertura Vacinal (2015 - 2022)**: Informações de cobertura vacinal, por município, fornecidas pelo [Tabnet DATASUS](http://www2.datasus.gov.br/DATASUS/index.php?area=02).
 
 ### Caminho para as bases de dados:
-- Dados brutos eleições 2018 / Dados brutos eleições 2022: `https://sig.tse.jus.br`
+- Dados brutos eleições 2018 / Dados brutos eleições 2022: [TSE](https://sig.tse.jus.br)
   - Clique em Conjunto de dados no menu lateral esquerdo
   - Selecione a opção "Resultados"
   - Escolha a opção "Votação candidato""
@@ -28,7 +28,7 @@ Os dados utilizados foram coletados das seguintes fontes:
   - Aplique as dimensões e métricas que desejar
   - Escolha o tipo de arquivo que deseja salvar (nesse projeto ".csv")
 
-- Dados brutos de vacinas de 2015 a 2022: `http://tabnet.datasus.gov.br/cgi/dhdat.exe?bd_pni/cpnibr.def`
+- Dados brutos de vacinas de 2015 a 2022: [Tabnet DATASUS](http://tabnet.datasus.gov.br/cgi/dhdat.exe?bd_pni/cpnibr.def)
   - Escolha Município na opção "Linha"
   - Escolha Ano na opção "Coluna"
   - Selecione as vacinas de interesse em medidas (nesse projeto foram selecionadas todas)
@@ -134,4 +134,4 @@ Sinta-se à vontade para abrir uma **issue** para contribuir com melhorias no pr
 
 Os dados tratados foram utilizados para montagem de um Dashboard que pode ser acessado no seguinte diretório:
 
-`https://public.tableau.com/views/VacinasxDesinformao-anlisedacoberturavacinalnoBrasilde2015a2022/Painel1?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link`
+[Dashboar Tableau Public](https://public.tableau.com/views/VacinasxDesinformao-anlisedacoberturavacinalnoBrasilde2015a2022/Painel1?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
